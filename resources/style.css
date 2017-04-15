@@ -1,4 +1,4 @@
-bbody {
+body {
  font-family: Helvetica, sans-serif;
  font-size: 16px;
  margin-left: 24px;
@@ -77,12 +77,12 @@ ul {
   color: 		#2b2b2b;
   text-align: center;
 }
-/*.panel .begin-panel div {
+.panel .begin-panel div {
   display: block;
   font-size: 35px;
   margin-top: 300px;
   margin-right: 105px;
-}*/
+}
 .begin-panel img {
   display:block;
   margin-left: 32px;
@@ -92,14 +92,13 @@ ul {
   margin-right: 24px;
 
 }
-
-/*.begin-panel .left-div {
+.begin-panel .left-div {
   width: 100;
 }
 
 .begin-panel .right-div {
   width: 100;
-}*/
+}
 .btn-text-right {
   background-color: #303030;
   border: none;

@@ -1,48 +1,78 @@
 body {
  font-family: Helvetica, sans-serif;
  font-size: 16px;
- margin-left: 24px;
- padding-left: 24px;
+ /*margin-left: 24px;
+ padding-left: 24px;*/
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: flex;
+  padding: 0 1.5rem;
+}
+
+.content .main-content {
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 0;
+  border-right: 1px solid rgb(245, 245, 245);
+}
+
+.content .support-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 0;
+}
+
+.media-container {
+  overflow: hidden;
+}
+
+.media-container img,
+.media-container video {
+  display: block;
+  width: 100%;
+}
+
+
 .banner{
-margin-top: 64px;
-max-height: 64px;
+/*margin-top: 64px;
+max-height: 64px;*/
+  display: flex;
+  align-items: center;
 }
-.banner img {
-width: 80px;
-height: 80px;
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: .5rem;
+}
+
+.banner span {
+  color: green;
+  /*font-size: 30px;*/
 }
 
 .banner nav li {
   display:inline;
-  padding-right: 60px;
+  padding-right: 30px;
   margin-right: 10px;
-  font-size: 30px;
-}
-
-.banner nav li a:hover{
-  background-color: #FFD700;
-}
-
-.banner nav span {
-  color: 	#000000;
-}
-.banner span{
-  color: green;
-  font-size: 30px;
-}
-
-#rectangle {
-	width: 25px;
-	height: 50px;
-	background: #8FBC8F;
+  /*font-size: 30px;*/
 }
 
 nav {
   display: inline-block;
   text-align: right;
   min-width: 500px;
-  padding-top: 64px;
+  /*padding-top: 64px;*/
 }
 
 ul {
@@ -51,6 +81,45 @@ ul {
     padding: 0;
 }
 
+.navbutton:hover{
+  background-color: #FFD700;
+}
+
+/*.banner nav span {
+  color: 	#000000;
+}*/
+
+
+#rectangle {
+	width: 25px;
+	height: 50px;
+	background: #8FBC8F;
+}
+
+#panel1 {
+  background-color: rgb(219, 219, 219);
+}
+
+#panel1 span {
+display: block;
+font-size: 3.75rem;
+justify-content: flex-end;
+margin-left: 105px;
+margin-top:200px;
+color:#303030;
+text-align: center;
+font-weight: bolder;
+
+}
+#panel1 p {
+display: block;
+font-size: 2rem;
+justify-content: flex-end;
+color: #2b2b2b;
+margin-left: 105px;
+margin-top:200px;
+text-align: center;
+}
 
 .maincontainer {
   display: -webkit-box;
@@ -60,80 +129,54 @@ ul {
   display: flex;
 }
 
-.begin-panel {
- flex:1 1 auto;
-  background: #D3D3D3;
-  display: flex;
-  margin-top: 64px;
-  margin-left: 24px;
-}
-
-.panel .begin-panel span {
-  display:block;
-  font-size: 60px;
-  justify-content: flex-end;
-  margin-left: 105px;
-  margin-top: 200px;
-  color: 		#2b2b2b;
-  text-align: center;
-}
-.panel .begin-panel div {
-  display: block;
-  font-size: 35px;
-  margin-top: 300px;
-  margin-right: 105px;
-}
-.begin-panel img {
-  display:block;
-  margin-left: 32px;
-  width: 60%;
-  margin-top: 0px;
-  margin-bottom: 32px;
-  margin-right: 24px;
-
-}
-.begin-panel .left-div {
-  width: 100;
-}
-
-.begin-panel .right-div {
-  width: 100;
-}
-.btn-text-right {
+.button {
   background-color: #303030;
   border: none;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin-left: 120;
+  font-size: 2rem;
+  margin-left: 120px;
+  margin-top: 10px;
   cursor: pointer;
-}
-
-.mid-panel1 {
-  flex:1 1 auto;
-  display: flex;
-  margin-top: 160px;
-}
-
-.mid-panel1 img {
-  display:block;
-  margin-left: 32px;
-  width: 60%;
-  margin-top: 0px;
-  margin-bottom: 32px;
-  margin-right: 24px;
-}
-
-.midpanel1text {
-  display: flex;
-  flex-direction: column;
-  height: 70px;
-  padding: 10px 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .verticalLine {
   border-left: solid  #D3D3D3;
+}
+
+#panel2 h3 {
+  display: block;
+  font-size: 3.75rem;
+  justify-content:flex-start;
+  color:#303030;
+  text-align: center;
+  font-weight: bolder;
+  display: block;
+}
+
+.panel2-sideinformation {
+  min-width: 423px;
+}
+
+.panel2-information1 span{
+  padding-top: 10px;
+  display:flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.panel2-information2 span{
+  padding-bottom: : 10px;
+  display:flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.panel2-information3 span{
+  padding-bottom: : 10px;
+  display:flex;
+  flex-direction: column;
+  font-size: 2rem;
 }

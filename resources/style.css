@@ -226,3 +226,7 @@ text-align: center;
   color:#303030;
   text-align: center;
 }
+#panel3 img {
+  width: 50%;
+  height: 300px;
+}

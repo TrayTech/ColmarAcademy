@@ -177,6 +177,10 @@ text-align: center;
 
 }
 
+#lecturer {
+  background-color: #DCDCDC;
+}
+
 .panel2-information {
   display:flex;
   min-width: 423px;
@@ -224,7 +228,7 @@ text-align: center;
 }
 
 
-/*#panel3 {
+#panel3 {
     background-color: rgb(219, 219, 219);
 }
 
@@ -232,8 +236,8 @@ text-align: center;
   display:flex;
   font-size: 3.75rem;
   justify-content:center;
-  margin-left: 1000px;
-  margin-top:10px;
+  /*margin-top:30px;*/
+  padding-top: 40px;
   color:#303030;
   text-align: center;
 }
@@ -242,17 +246,40 @@ text-align: center;
   width: 50%;
   height: 300px;
   margin-left: 100px;
+  padding-top: 20px;
+
 }
 
-#panel3 .box {
-    width: 100px;
-    background-color: #ffffff;
-    margin-left: 100px
-    height: 500px;
-}*/
+.panel3row {
+  display:flex;
+
+}
+.text-content h3{
+  display:flex;
+  font-size: 2.50rem;
+  margin-left: 100px;
+  margin-top:10px;
+
+}
+
+.text-content h4{
+  display:flex;
+  font-size: 2.25rem;
+  margin-left: 100px;
+  margin-top:10px;
+
+}
+
+.text-content p{
+  display:flex;
+  font-size: 2rem;
+  margin-left: 100px;
+  margin-top:10px;
+
+}
 
 #panel4 {
-  background-color: rgb(219, 219, 219);
+  /*background-color: rgb(219, 219, 219);*/
   padding: 2rem 0;
   text-align: center;
 }
@@ -289,6 +316,9 @@ font-weight: bolder;
   text-align: center;
   margin-bottom: 20px;
 
+}
+#now-then {
+  background-color: #DCDCDC;
 }
 
 .panel4-information {

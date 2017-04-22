@@ -218,6 +218,12 @@ text-align: center;
   padding-top: 20px;
 }
 
+}
+.panel2-information .media-container, .panel4-information .media-container {
+  width: 35%;
+}
+
+
 /*#panel3 {
     background-color: rgb(219, 219, 219);
 }
@@ -247,12 +253,14 @@ text-align: center;
 
 #panel4 {
   background-color: rgb(219, 219, 219);
+  padding: 2rem 0;
+  text-align: center;
 }
 
 #panel4 span {
 display: block;
 font-size: 3.00rem;
-justify-content: flex-end;
+/*justify-content: flex-end;*/
 margin-left: 105px;
 margin-top:10px;
 color:#303030;
@@ -285,17 +293,24 @@ font-weight: bolder;
 
 .panel4-information {
   display:flex;
-  min-width: 423px;
+  padding: 1rem 0 1rem 1rem;
+  border-bottom: 1px solid rgb(245, 245, 245);
+  margin-bottom: 1.5rem;
+  /*min-width: 423px;
   min-height: 168px;
-  margin-right: 10px;
+  margin-right: 10px;*/
 }
 
 
 .panel4-info-text{
   display:flex;
   flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  padding: 0 0.75rem 0 1rem;
 
 }
+
 .panel4-information img {
   padding-top: 20px;
 }

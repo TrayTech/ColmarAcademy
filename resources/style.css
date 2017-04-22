@@ -189,6 +189,11 @@ text-align: center;
   text-align: center;
 }
 
+
+.link:hover{
+  background-color: #FFD700;
+}
+
 .panel2-info-text{
   display:flex;
   flex-direction: column;
@@ -213,7 +218,7 @@ text-align: center;
   padding-top: 20px;
 }
 
-#panel3 {
+/*#panel3 {
     background-color: rgb(219, 219, 219);
 }
 
@@ -227,6 +232,70 @@ text-align: center;
   text-align: center;
 }
 #panel3 img {
+  z-index;
   width: 50%;
   height: 300px;
+  margin-left: 100px;
+}
+
+#panel3 .box {
+    width: 100px;
+    background-color: #ffffff;
+    margin-left: 100px
+    height: 500px;
+}*/
+
+#panel4 {
+  background-color: rgb(219, 219, 219);
+}
+
+#panel4 span {
+display: block;
+font-size: 3.00rem;
+justify-content: flex-end;
+margin-left: 105px;
+margin-top:10px;
+color:#303030;
+text-align: center;
+font-weight: bolder;
+
+}
+
+#panel4 h3 {
+  display: block;
+  font-size: 2.25rem;
+  justify-content:flex-start;
+  color:#303030;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+
+#panel4 p {
+  display: block;
+  font-size: 1.5rem;
+  justify-content:flex-start;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.panel4-information {
+  display:flex;
+  min-width: 423px;
+  min-height: 168px;
+  margin-right: 10px;
+}
+
+
+.panel4-info-text{
+  display:flex;
+  flex-direction: column;
+
+}
+.panel4-information img {
+  padding-top: 20px;
 }

@@ -44,16 +44,19 @@ a {
 max-height: 64px;*/
   display: flex;
   align-items: center;
+  padding-bottom: 64px;
 }
 
 .logo {
   flex-grow: 1;
   display: flex;
   align-items: center;
+  font-size: 30px;
 }
 
 .logo img {
   margin-right: .5rem;
+  height: 70px;
 }
 
 .banner span {
@@ -65,13 +68,14 @@ max-height: 64px;*/
   display:inline;
   padding-right: 30px;
   margin-right: 10px;
-  /*font-size: 30px;*/
+  font-size: 30px;
 }
 
 nav {
   display: inline-block;
   text-align: right;
   min-width: 500px;
+
   /*padding-top: 64px;*/
 }
 
@@ -229,7 +233,8 @@ text-align: center;
 
 
 #panel3 {
-    background-color: rgb(219, 219, 219);
+    padding: 2rem 3.5;
+    background-color: rgb(245, 245, 245);
 }
 
 #panel3 span {
@@ -241,43 +246,44 @@ text-align: center;
   color:#303030;
   text-align: center;
 }
-#panel3 img {
+/*#panel3 img {
   z-index;
   width: 50%;
   height: 300px;
   margin-left: 100px;
   padding-top: 20px;
 
-}
+}*/
 
 .panel3row {
   display:flex;
 
 }
-.text-content h3{
-  display:flex;
-  font-size: 2.50rem;
-  margin-left: 100px;
-  margin-top:10px;
 
+.course .text-content{
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 
-.text-content h4{
-  display:flex;
-  font-size: 2.25rem;
-  margin-left: 100px;
-  margin-top:10px;
-
+.course {
+  flex-basis: 33%;
+  margin: 1rem;
+  background-color: white;
+}
+.course h3,
+.course h4 {
+  padding-bottom: .5rem;
 }
 
-.text-content p{
-  display:flex;
-  font-size: 2rem;
-  margin-left: 100px;
-  margin-top:10px;
-
+.text-content h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bolder;
 }
-
+.text-content h4, p {
+  font-size: 1.75rem;
+  color:	#808080;
+  text-align: left;
+}
 #panel4 {
   /*background-color: rgb(219, 219, 219);*/
   padding: 2rem 0;
@@ -343,4 +349,33 @@ font-weight: bolder;
 
 .panel4-information img {
   padding-top: 20px;
+}
+
+#panel4 h3.trademark {
+  width: 75%;
+  text-align: left;
+  font-size: 1.3rem;
+  color:	#808080;
+}
+#panel4 h3.terms {
+  width: 25%;
+  text-align: right;
+  font-size: 1.3rem;
+  color:	#808080;
+}
+
+#panel5 {
+  /*display: flex;*/
+  padding: 2rem 0;
+  text-align: left;
+  border-top-style: solid;
+  border-width: 3px;
+  color: #808080;
+}
+
+.footer{
+  display:flex;
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 1rem;
 }

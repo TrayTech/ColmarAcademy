@@ -5,6 +5,8 @@ body {
  padding-left: 24px;*/
 }
 
+
+
 a {
   text-decoration: none;
   color: black;
@@ -75,7 +77,6 @@ nav {
   display: inline-block;
   text-align: right;
   min-width: 500px;
-
   /*padding-top: 64px;*/
 }
 
@@ -89,6 +90,78 @@ ul {
   background-color: #FFD700;
 }
 
+.mobile-menu nav li {
+  display:inline;
+  padding-right: 30px;
+  margin-right: 80px;
+  font-size: 30px;
+}
+
+@media screen and (max-width:640px){
+  .navbutton li {
+    display:inline;
+    list-style-type: none;
+  }
+ .logo span {
+    display:none;
+  }
+  .main-menu {
+    display:none;
+  }
+.media-container{
+  display:none;
+}
+
+.support-content span {
+  text-align: right;
+  padding-right: 10px;
+  font-size: 1rem;
+
+}
+.support-content p {
+    text-align: center;
+
+}
+
+
+  }
+  @media screen and (min-width:641px){
+    .mobile-menu{
+      display:none;
+    }
+
+  }
+
+
+
+/*div {
+  font-size: 26px;
+  width:350px;
+  padding: 20px;
+}
+span.icon > img{
+  height:64px;
+}*/
+/*@media (min-width:640px) {
+  .banner {
+    height:64px;
+  }
+  .navbutton {
+    flex-direction:column;
+    justify-content:space-around;
+  }
+}*/
+
+
+/*@media only screen and (min-width: 768px)
+  span.icon {display:none}
+  span.text {display:inline-block}
+}
+@media (max-width:640px){
+  span.icon {display:inline-block}
+  span.text {display:none}
+
+}*/
 /*.banner nav span {
   color: 	#000000;
 }*/
@@ -105,7 +178,7 @@ ul {
 }
 
 #panel1 span {
-display: block;
+display: flex;
 font-size: 3.75rem;
 justify-content: flex-end;
 margin-left: 105px;
@@ -116,7 +189,7 @@ font-weight: bolder;
 
 }
 #panel1 p {
-display: block;
+display: flex;
 font-size: 2rem;
 justify-content: flex-end;
 color: #2b2b2b;

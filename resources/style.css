@@ -6,7 +6,6 @@ body {
 }
 
 
-
 a {
   text-decoration: none;
   color: black;
@@ -102,70 +101,98 @@ ul {
     display:inline;
     list-style-type: none;
   }
+
  .logo span {
     display:none;
   }
   .main-menu {
     display:none;
   }
-.media-container{
+.main-content .media-container {
+  display: none;
+}
+
+#panel2 .main-content h3 {
+display:none;
+}
+#panel2 .main-content p {
+display:none;
+}
+#panel2 .main-content h2 {
+display:none;
+}
+#panel3 .media-container{
+  display:none;
+
+}
+#panel3 .text-content h4, #panel3 .text-content p {
+  display:none;
+}
+#panel4 .panel4-information .panel4-info-text span {
+  display:none;
+}
+#panel4 .panel4-information .panel4-info-text p {
+  display:none;
+}
+#now-then{
+  display:none;
+}
+#panel4 .support-content .panel4-information .media-container {
+  display:none;
+}
+#panel4 .main-content h3, #panel4 .main-content p {
   display:none;
 }
 
-.support-content span {
-  text-align: right;
-  padding-right: 10px;
-  font-size: 1rem;
-
-}
-.support-content p {
-    text-align: center;
 
 }
 
-
+@media only screen and (max-width: 895px)  {
+/*.content .media-container  {
+  width:100%;
+}*/
+#panel1 {
+    flex-direction: column;
+    padding: 0;
   }
+.content .support-content {
+  width:auto;
+}
+.content .main-content {
+  width: auto;
+}
+
+.panel2-information {
+    flex-direction: column;
+    padding: 0;
+  }
+.content .support-content {
+  width:auto;
+}
+.content .main-content {
+  width: auto;
+}
+.panel3row {
+  flex-direction:column;
+  padding: 0;
+
+}
+.text-content h3 {
+  background-color: #A9A9A9;
+}
+#panel4 .content .main-content .media-container video {
+  width:100%;
+  height:auto;
+}
+
+}
+
   @media screen and (min-width:641px){
-    .mobile-menu{
+    .mobile-menu {
       display:none;
     }
 
   }
-
-
-
-/*div {
-  font-size: 26px;
-  width:350px;
-  padding: 20px;
-}
-span.icon > img{
-  height:64px;
-}*/
-/*@media (min-width:640px) {
-  .banner {
-    height:64px;
-  }
-  .navbutton {
-    flex-direction:column;
-    justify-content:space-around;
-  }
-}*/
-
-
-/*@media only screen and (min-width: 768px)
-  span.icon {display:none}
-  span.text {display:inline-block}
-}
-@media (max-width:640px){
-  span.icon {display:inline-block}
-  span.text {display:none}
-
-}*/
-/*.banner nav span {
-  color: 	#000000;
-}*/
-
 
 #rectangle {
 	width: 25px;
